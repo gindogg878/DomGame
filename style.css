@@ -2,15 +2,33 @@
   margin: 0;
   box-sizing: border-box;
 }
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-h1 {
+#start {
+  padding-top: 650px;
   font-size: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #imageContainer {
   width: auto;
   height: 100%;
   background-color: aqua;
-  display: flex;
+  display: none;
   justify-content: center;
+  align-items: center;
+}
+
+#lowerPage {
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-end;
 }

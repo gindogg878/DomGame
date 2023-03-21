@@ -9,9 +9,39 @@
     <title>Guess the Image</title>
   </head>
   <body>
-    <div id="start">
-      <h1>Start the game?</h1>
-      <p>click here to Start</p>
+    <div class="mainContainer">
+      <div id="start">
+        <h1>Start the game?</h1>
+        <p>click here to Start</p>
+      </div>
+      <div id="imageContainer">
+        <img src="elephant.jpg" alt="" />
+      </div>
+      <div id="lowerPage">
+        <div class="player1">
+          <h2>Player 1</h2>
+          <form action="">
+            <label for="guess">Would you like to guess?</label>
+            <br />
+            <input type="text" id="guess" name="guess" />
+          </form>
+          <button>Skip</button>
+        </div>
+        <div class="category">
+          <h2>Category</h2>
+          <h3 id="randomCat"></h3>
+        </div>
+        <div class="player2">
+          <h2>Player 2</h2>
+          <!-- <p>Would you like to guess?</p> -->
+          <form action="">
+            <label for="guess">Would you like to guess?</label>
+            <br />
+            <input type="text" id="guess" name="guess" />
+          </form>
+          <button>Skip</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
