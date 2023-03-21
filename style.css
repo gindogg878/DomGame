@@ -19,11 +19,34 @@
 
 #imageContainer {
   width: auto;
-  height: 100%;
-  background-color: aqua;
+  height: 1400px;
+  /* background-color: aqua; */
   display: none;
-  justify-content: center;
-  align-items: center;
+
+  /* justify-content:  */
+  /* align-items: center; */
+  background-image: url("elephant.jpg");
+  background-size: 100%;
+}
+
+#filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.cells {
+  background-color: red;
+  width: 525px;
+  height: 275px;
+  border: 1px black dashed;
+}
+
+#randomImg {
+  width: 500px;
+  height: 700px;
 }
 
 #lowerPage {
