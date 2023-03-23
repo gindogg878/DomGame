@@ -20,12 +20,12 @@
 #imageContainer {
   width: auto;
   height: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin: 300px, auto, 50px; */
   /* background-color: aqua; */
   display: none;
-
-  /* justify-content:  */
-  /* align-items: center; */
-  background-image: url("elephant.jpg");
+  background-image: url();
   background-size: 100%;
 }
 
@@ -33,12 +33,12 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: stretch;
+  justify-content: space-around;
+  /* align-items: stretch; */
 }
 
 .cells {
-  background-color: red;
+  background-color: rgb(134, 207, 203);
   width: 525px;
   height: 275px;
   border: 1px black dashed;
