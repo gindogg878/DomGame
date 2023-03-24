@@ -2,6 +2,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(imgs/mystery.jpg);
+  background-size: 35%;
+}
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -22,12 +26,9 @@
   height: 1400px;
   margin: 10px auto;
   /* margin: 300px, auto, 50px; */
-  background-color: aqua;
+  /* background-color: aqua; */
   display: none;
-  /* grid-template-columns: repeat(6, 20%);
-  grid-template-rows: repeat(6, 1fr); */
-  background-image: url("https://i.imgur.com/VDld0dD.jpeg");
-
+  background-image: url("");
   background-size: 100%;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .cells {
-  background-color: rgb(84, 173, 208);
+  background-color: #95bdff;
   /* width: 350px;
   height: 275px; */
 
@@ -69,7 +70,7 @@
   left: 50%;
   align-items: center;
   font-size: x-large;
-  background-color: rgb(157, 152, 152);
+  background-color: #ecf2ff;
   text-align: center;
 }
 
@@ -83,7 +84,7 @@
   left: 50%;
   align-items: center;
   font-size: x-large;
-  background-color: rgb(43, 226, 83);
+  background-color: #fff4d2;
   text-align: center;
 }
 
@@ -97,7 +98,7 @@
   left: 50%;
   align-items: center;
   font-size: x-large;
-  background-color: rgb(198, 8, 8);
+  background-color: #e5d1fa;
   text-align: center;
 }
 
@@ -111,6 +112,6 @@
   left: 50%;
   align-items: center;
   font-size: x-large;
-  background-color: rgb(157, 152, 152);
+  background-color: #ecf2ff;
   text-align: center;
 }
