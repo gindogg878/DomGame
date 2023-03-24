@@ -29,6 +29,7 @@ body {
   /* background-color: aqua; */
   display: none;
   background-image: url("");
+
   background-repeat: no-repeat;
   background-size: 100%;
 }
