@@ -18,40 +18,99 @@
 }
 
 #imageContainer {
-  width: auto;
+  width: 95%;
   height: 1400px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 10px auto;
   /* margin: 300px, auto, 50px; */
-  /* background-color: aqua; */
+  background-color: aqua;
   display: none;
-  background-image: url();
+  /* grid-template-columns: repeat(6, 20%);
+  grid-template-rows: repeat(6, 1fr); */
+  background-image: url("https://i.imgur.com/VDld0dD.jpeg");
+
   background-size: 100%;
 }
 
 #filter {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /* align-items: stretch; */
+  width: 95%;
+  height: 1400px;
+  display: grid;
+  grid-template-columns: repeat(5, 21.25%);
+  grid-template-rows: repeat(4, 20%);
 }
 
 .cells {
-  background-color: rgb(134, 207, 203);
-  width: 525px;
-  height: 275px;
+  background-color: rgb(84, 173, 208);
+  /* width: 350px;
+  height: 275px; */
+
   border: 1px black dashed;
 }
 
-#randomImg {
+/* #randomImg {
   width: 500px;
   height: 700px;
-}
+} */
 
 #lowerPage {
   display: none;
   flex-direction: row;
   justify-content: space-around;
   align-content: flex-end;
+}
+
+#random-div {
+  display: none;
+  width: 400px;
+  height: 400px;
+  margin: -400px -200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  align-items: center;
+  font-size: x-large;
+  background-color: rgb(157, 152, 152);
+  text-align: center;
+}
+
+.winner-style {
+  display: none;
+  width: 400px;
+  height: 400px;
+  margin: -400px -200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  align-items: center;
+  font-size: x-large;
+  background-color: rgb(43, 226, 83);
+  text-align: center;
+}
+
+.wrong-guess {
+  display: none;
+  width: 400px;
+  height: 400px;
+  margin: -400px -200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  align-items: center;
+  font-size: x-large;
+  background-color: rgb(198, 8, 8);
+  text-align: center;
+}
+
+.skipBtn {
+  display: none;
+  width: 400px;
+  height: 400px;
+  margin: -400px -200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  align-items: center;
+  font-size: x-large;
+  background-color: rgb(157, 152, 152);
+  text-align: center;
 }
