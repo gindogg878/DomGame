@@ -16,9 +16,19 @@ CSS
 JS
 
 #Installation
+here is link to my github page
+https://gindogg878.github.io/GuessTheImage/
 
 #How to use
 Just click away
+
+#Issues
+there are plenty of issues in my first game attempt.
+1: the responsiveness of the page is way off.
+2: the ability to make sure only one player is playing is restricted.
+3: when a player guesses correctly the img should be revealed. It does not.
+4. A reset/restart button is not available.
+
 
 #Credits
 PerScholas boot camp
